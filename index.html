@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./FavIcon/Favicon.png" />
+    <title>Más Hats</title>
+    <!-- Link con Css -->
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Link con BoxIcon y toastify -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+
+    <!-- Link Swiper CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Link a Script -->
+
+    <script defer src="./Js/main.js"></script>
+    <script defer src="./Js/stock.json"></script>
+    <script defer src="./Js/app.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header id="header" class="header">
+      <a href="#" class="logo"> Más Hats </a>
+
+      <!-- Bara de navegacion -->
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Productos</a></li>
+        <li><a href="#discounts">Proximamente</a></li>
+        <li><a href="#about-us">Sobre Nosotros</a></li>
+      </ul>
+
+      <!-- Icónos -->
+
+      <div class="header-icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <button id="btn-busqueda"><i class="bx bx-search"></i></button>
+        <button id="btn-carrito">
+          <i class="bx bx-cart" id="cart-icon"></i
+          ><span id="contador-carrito">0</span>
+        </button>
+        <button id="btn-usuario">
+          <i class="bx bx-user" id="user-icon"></i>
+        </button>
+      </div>
+
+      <!-- Busqueda -->
+
+      <div class="search-box">
+        <input type="search" name="" id="" placeholder="Buscar" />
+      </div>
+
+      <!-- Carrito -->
+
+      <div class="cart">
+        <h1>Tu carrito</h1>
+        <div id="contenedor-carrito"></div>
+        <div>
+          <h2 class="Total">Total $ <span id="precio-total">0</span></h2>
+          <a href="./checkout.html" class="btn" id="btn-iniciarCompra"
+            >Iniciar compra</a
+          >
+          <button class="btn-vaciar" id="vaciar-carrito">
+            Vaciar <i class="bx bxs-trash"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Usuario -->
+
+      <div class="user">
+        <h2>Inicia Sesión</h2>
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Contraseña" />
+        <input type="submit" value="Login" class="login-btn" />
+        <p>Olvidaste tu contraseña? <a href="#">Presiona Aquí</a></p>
+        <p>No tenés cuenta aún? <a href="#">Registrate aquí</a></p>
+      </div>
+    </header>
+
+    <!-- Home -->
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>La marca de tus sombreros</h1>
+        <a href="#products" class="btn-main">Shop now</a>
+      </div>
+
+      <div class="home-img">
+        <img src="IMG/Img-Main/Main.png" class="img-main" />
+      </div>
+    </section>
+
+    <!-- Productos -->
+
+    <section class="products" id="products">
+      <div class="heading">
+        <h1><span>Productos</span></h1>
+      </div>
+      <div class="product-container" id="contenedor-productos"></div>
+    </section>
+
+    <!-- Informacion extra -->
+
+    <section>
+      <div class="content-info-compra">
+        <div class="envios">
+          <i class="bx bxs-package"></i>
+          <p>Enviamos Tu compra</p>
+          <span>Entregas a todo el país</span>
+        </div>
+        <div class="payment">
+          <i class="bx bx-credit-card"></i>
+          <p>Pagá como quieras</p>
+          <span>Tarjetas de crédito o Mercado Pago</span>
+        </div>
+        <div class="segurity">
+          <i class="bx bx-lock-alt"></i>
+          <p>Comprá con seguridad</p>
+          <span>Tus datos siempre protejidos</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de proximamente -->
+
+    <section class="discounts" id="discounts">
+      <div class="heading">
+        <h1><span>Proximamente</span></h1>
+      </div>
+      <div class="swiper new-arrival">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./IMG/Img-Carrousel/Carrousel-1.jpg" alt="Imagen-1" />
+          </div>
+          <div class="swiper-slide box">
+            <img src="./IMG/Img-Carrousel/Carrousel-2.jpg" alt="Imagen-2" />
+          </div>
+          <div class="swiper-slide box">
+            <img src="./IMG/Img-Carrousel/Carrousel-3.jpg" alt="Imagen-3" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+
+    <section class="about-us" id="about-us">
+      <div class="heading">
+        <h1>Sobre<span> Nosotros</span></h1>
+      </div>
+      <div class="about-us-container">
+        <div class="box">
+          <img src="IMG/Img-Sobre-nosotros/Mariana.jpg" />
+          <p>Soy Mariana, Psicóloga y creadora de la marca Más Hats.</p>
+          <p>
+            Esta es una marca que nace de la pasión y de un proceso de búsqueda
+            como el de muchas de ustedes, del empuje que tenemos las mujeres
+            para crear.
+          </p>
+          <h2>Mariana Olivera, CEO & Founder</h2>
+        </div>
+        <div class="box">
+          <img src="IMG/Img-Sobre-nosotros/Franco.jpg" alt="" />
+          <p>
+            Soy Franco, estudiante de programación en la Universidad Tecnologíca
+            Nacional (UTN)
+          </p>
+          <p>
+            "Todo lo que uno pueda llegarse a imaginar se puede programar, y eso
+            quiere decir que la programación esta limitada únicamente por
+            nuestra imaginación."
+          </p>
+          <h2>Franco Rodriguez, CTO</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <div class="footer-box">
+        <h2>Navegación</h2>
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Productos</a></li>
+        <li><a href="#discounts">Descuentos</a></li>
+        <li><a href="#about-us">Sobre Nosotros</a></li>
+      </div>
+
+      <div class="footer-box">
+        <h3>Support</h3>
+        <li><a href="#">Ciudados de tu sombrero</a></li>
+        <li><a href="#">Politicas de cambio</a></li>
+        <li><a href="#">Contáctanos</a></li>
+        <li><a href="#">FAQ</a></li>
+      </div>
+
+      <div class="footer-box">
+        <div class="social-media">
+          <h2>Redes Sociales</h2>
+          <a href="https://www.instagram.com/mas.hats/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.whatsapp.com/?lang=es" target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </div>
+        <h3>Newsletter</h3>
+        <input type="email" class="newsletter-input" placeholder="Email" />
+        <button type="submit" class="btn-submit">
+          <i class="bx bxs-send"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Copyrigth -->
+
+    <div class="copyrigth">
+      <p>&#169; Más Hats All Right Reserved.</p>
+    </div>
+
+    <!-- Link de JS -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Toastify -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
+    <!-- SweetAlert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>

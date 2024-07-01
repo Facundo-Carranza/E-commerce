@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sombrero Bardot",
+    "precio": 10990,
+    "img": "./IMG/Img-Productos/Bardot.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Isa Beige",
+    "precio": 12000,
+    "img": "./IMG/Img-Productos/isa-beige.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Loren Tostado",
+    "precio": 11550,
+    "img": "./IMG/Img-Productos/Loren-Tostado.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Sombrero Naomi",
+    "precio": 15000,
+    "img": "./IMG/Img-Productos/Sombrero-Naomi.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Bolsito erin tostado",
+    "precio": 9500,
+    "img": "./IMG/Img-Productos/Bolsito-Erin-tostado.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Bolsito erin negro",
+    "precio": 9500,
+    "img": "./IMG/Img-Productos/Bolsito-Erin-negro.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Tailandia crudo/camel",
+    "precio": 15200,
+    "img": "./IMG/Img-Productos/Tailandia-Crudo-camel.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Tailandia crudo/negro",
+    "precio": 15200,
+    "img": "./IMG/Img-Productos/Tailandia-Crudo-negro.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Tailandia crudo/negro",
+    "precio": 15990,
+    "img": "./IMG/Img-Productos/Bolso-rio-tostado.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Piluso Dakota Tostado",
+    "precio": 8900,
+    "img": "./IMG/Img-Productos/Piluso-dakota-tostado.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Piluso Dakota Crema",
+    "precio": 8900,
+    "img": "./IMG/Img-Productos/Piluso-dakota-crema.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Piluso Dakota Negro",
+    "precio": 8900,
+    "img": "./IMG/Img-Productos/Piluso-dakota-negro.jpg"
+  }
+]
